@@ -1,0 +1,49 @@
+:root{
+    background-color: #022f3a;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    background-color: #f1bc42;
+    border: 0;
+    border-radius: 10%;
+    font-size: 20px;
+    font-weight: 300;
+}
+.scoreCard{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #113419;
+    border-radius: 20%;
+    border-color: whitesmoke;
+    border-width: 5px;
+    border-style: solid;
+    padding: 2%;
+    min-width:10%;
+}
+.scoreCards{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    padding:2%;
+    gap: 5%;
+}
+.buttonLayout{
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    padding:2%;
+    gap: 5%;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
